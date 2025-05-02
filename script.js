@@ -1,4 +1,3 @@
-const heroes = [];
 fetch("https://raw.githubusercontent.com/GaloisField17/dump/refs/heads/main/en-US")
   .then((res) => res.text())
   .then((text) => {
